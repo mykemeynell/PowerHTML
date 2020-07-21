@@ -1,0 +1,24 @@
+{
+  "name": "mykehowells/powerhtml",
+  "description": "HTML templating and parsing engine",
+  "type": "library",
+  "keywords": ["php","html","template","rich","powerhtml","power","html","powerparser","parser"],
+  "homepage": "https://github.com/mykehowells/powerparser",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Myke Howells",
+      "email": "myke@mykeand.co",
+      "homepage": "http://mykehowells.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PowerHTML\\": "PowerHTML/"
+    }
+  }
+}
